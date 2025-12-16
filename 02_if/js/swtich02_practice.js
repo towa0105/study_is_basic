@@ -1,6 +1,6 @@
 const num1 = 8;
 const num2 = 2;
-const calc = "";
+const calc = "c";
 let ans = 0;
 
 // if (calc == "a") {
@@ -22,7 +22,10 @@ let ans = 0;
 // console.log(ans);
 
 
-switch (ans) {
+
+
+
+switch (calc) {
   case "a":
     console.log(num1 + num2);
     break;
