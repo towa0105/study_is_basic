@@ -4,7 +4,7 @@ let price = 980;
 while (true) {
     let price;
 
-    if ( >= 5) {
+    if (i > 5) {
         price = 750;
     } else {
         price = 980;
