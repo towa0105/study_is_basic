@@ -3,5 +3,5 @@ const btn = document.getElementById("btn")
 const output = document.getElementById("text")
 
 btn.onclick = () => {
-    output.innerText = text.value;
+    output.innerText = tex.value;
 }
