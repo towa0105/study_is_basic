@@ -12,3 +12,12 @@
 //     console.log(list[i].textContent);
 // }
 
+const li = document.querySelectorAll("tbody>tr");
+const list = document.getElementsByClassName("name")
+console.log(list[0])
+
+console.log(li[0].name)
+
+for (let i = 0; i < list.length; i++) {
+    console.log(list[i].textContent);
+}
