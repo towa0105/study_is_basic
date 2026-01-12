@@ -9,3 +9,5 @@ function message(val) {
 btn.onclick = () => {
     message();
 }
+
+
