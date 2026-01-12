@@ -14,3 +14,28 @@ btnB.onclick = () => {
 btnC.onclick = () => {
   result.innerText = "btnCが押された";
 }
+
+
+
+
+
+
+
+function btn() {
+  result.innerText = "btnAが押された";
+  result.innerText = "btnBが押された";
+  result.innerText = "btnCが押された";
+}
+
+
+btnA.onclick = () => {
+  btn();
+}
+btnB.onclick = () => {
+  btn();
+}
+
+
+
+
+
