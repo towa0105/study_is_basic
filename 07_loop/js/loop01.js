@@ -6,3 +6,11 @@ const menu = [
   "カツカレー定食",
 ];
 
+const menu_ul = document.getElementById("menu");
+
+menu.forEach((e, i) => {
+  // 配列arrの中身が1つづつ最後まで繰り返される
+  console.log(e, i);
+  menu_ul.innerText += e + ",";
+});
+
